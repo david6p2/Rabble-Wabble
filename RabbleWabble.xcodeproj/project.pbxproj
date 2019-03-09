@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB10956C22332B1E00EF44EB /* SelectQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10956B22332B1E00EF44EB /* SelectQuestionGroupViewController.swift */; };
+		FB10956E22332EB600EF44EB /* QuestionGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10956D22332EB600EF44EB /* QuestionGroupCell.swift */; };
 		FB97BA7B20C755CB00782645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97BA7A20C755CB00782645 /* AppDelegate.swift */; };
 		FB97BA7D20C755CB00782645 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB97BA7C20C755CB00782645 /* QuestionViewController.swift */; };
 		FB97BA8020C755CB00782645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB97BA7E20C755CB00782645 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB10956B22332B1E00EF44EB /* SelectQuestionGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		FB10956D22332EB600EF44EB /* QuestionGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGroupCell.swift; sourceTree = "<group>"; };
 		FB97BA7720C755CB00782645 /* RabbleWabble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RabbleWabble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB97BA7A20C755CB00782645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB97BA7C20C755CB00782645 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				FB97BA7C20C755CB00782645 /* QuestionViewController.swift */,
+				FB10956B22332B1E00EF44EB /* SelectQuestionGroupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				FB97BA9920C75A2300782645 /* LaunchScreen.storyboard */,
 				FB97BA7E20C755CB00782645 /* Main.storyboard */,
 				FB97BA9B20C75AD100782645 /* QuestionView.swift */,
+				FB10956D22332EB600EF44EB /* QuestionGroupCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +200,8 @@
 				FB97BA9420C7592900782645 /* QuestionGroup.swift in Sources */,
 				FB97BA9C20C75AD100782645 /* QuestionView.swift in Sources */,
 				FB97BA9620C7598E00782645 /* QuestionGroupData.swift in Sources */,
+				FB10956C22332B1E00EF44EB /* SelectQuestionGroupViewController.swift in Sources */,
+				FB10956E22332EB600EF44EB /* QuestionGroupCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
